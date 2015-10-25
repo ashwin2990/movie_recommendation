@@ -1,0 +1,12 @@
+Name: XYZ
+Age: 43
+
+Do you like cupcakes?
+yes
+
+How many eyes do you have?
+2
+
+Which fruit do you like best?
+mango
+
