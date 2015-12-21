@@ -43,9 +43,9 @@ def find_test_data_ratings(new_ratings_matrix,critic_ratings_test):
 	print sqrt(sq_error/number_of_ratings)
 
 
-ratings_matrix=read_file_2D_matrix('ml-100k/u1.base')	
-ratings_test=load_critic_ratings('ml-100k/u1.test')
-new_ratings_matrix=matrix_svd(np.array(ratings_matrix),700)
+ratings_matrix=read_file_2D_matrix('ml-100k/ua.base')	
+ratings_test=load_critic_ratings('ml-100k/ua.test')
+new_ratings_matrix=matrix_svd(np.array(ratings_matrix),200)
 print new_ratings_matrix.shape
 find_test_data_ratings(new_ratings_matrix,ratings_test)
 #find_ratings(new_ratings_matrix)
